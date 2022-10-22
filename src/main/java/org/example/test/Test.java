@@ -12,8 +12,9 @@ public class Test {
 //        System.out.println(student);
 
         //IOC方式
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
-        Student student1 = (Student) applicationContext.getBean("student2");
-        System.out.println(student1);
+//        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
+//        Student student1 = (Student) applicationContext.getBean("student2");
+//        System.out.println(student1);
+
     }
 }
